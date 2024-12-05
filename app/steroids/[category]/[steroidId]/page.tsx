@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { prisma } from "@/lib/db";
 import { ShoppingCart } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
 const SteroidsCategoryPage = async ({
@@ -81,9 +82,11 @@ const SteroidsCategoryPage = async ({
           <div className="flex flex-col gap-2">
             <h2 className="text-lg">Quantity</h2>
           </div>
-          <Button>
-            Buy now
-            <ShoppingCart />
+          <Button asChild>
+            <Link href="/cart/success">
+              Buy now
+              <ShoppingCart />
+            </Link>
           </Button>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,

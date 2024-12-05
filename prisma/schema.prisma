@@ -78,9 +78,9 @@ model Steroid {
   createdAt   DateTime  @default(now())
   updatedAt   DateTime? @updatedAt
 
-  Category   Category? @relation(fields: [categoryId], references: [id])
-  categoryId String?
-  Review     Review[]
+  Category    Category? @relation(fields: [category_id], references: [id])
+  category_id String?
+  Review      Review[]
 
   @@map("steroid")
 }

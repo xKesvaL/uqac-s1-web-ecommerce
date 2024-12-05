@@ -64,7 +64,7 @@ CREATE TABLE "steroid" (
     "description" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3),
-    "categoryId" TEXT,
+    "category_id" TEXT,
 
     CONSTRAINT "steroid_pkey" PRIMARY KEY ("id")
 );
@@ -106,7 +106,7 @@ ALTER TABLE "session" ADD CONSTRAINT "session_userId_fkey" FOREIGN KEY ("userId"
 ALTER TABLE "account" ADD CONSTRAINT "account_userId_fkey" FOREIGN KEY ("userId") REFERENCES "user"("id") ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "steroid" ADD CONSTRAINT "steroid_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "category"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+ALTER TABLE "steroid" ADD CONSTRAINT "steroid_category_id_fkey" FOREIGN KEY ("category_id") REFERENCES "category"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "review" ADD CONSTRAINT "review_steroidId_fkey" FOREIGN KEY ("steroidId") REFERENCES "steroid"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
