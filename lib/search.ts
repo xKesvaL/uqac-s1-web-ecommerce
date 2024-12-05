@@ -1,4 +1,3 @@
-import type { Steroid } from "@prisma/client";
 import FlexSearch from "flexsearch";
 import type { SteroidWithCategory } from "./types";
 

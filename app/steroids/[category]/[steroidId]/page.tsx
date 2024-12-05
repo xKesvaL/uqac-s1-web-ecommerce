@@ -43,9 +43,9 @@ const SteroidsCategoryPage = async ({
     );
   };
 
-  const handleAddToCart = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  };
+  // const handleAddToCart = async (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  // };
 
   return (
     <div className="py-4">

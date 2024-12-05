@@ -27,6 +27,7 @@ const SteroidsCategoryPage = async ({
       Category: true,
     },
     orderBy: {
+      // eslint-disable-next-line
       ...(filters.orderBy as any),
     },
   });
