@@ -2,7 +2,6 @@ import SteroidList from "@/components/steroids/SteroidList";
 import { prisma } from "@/lib/db";
 import { getFiltersPrisma } from "@/lib/filters";
 import type { SearchParamsPage } from "@/lib/types";
-import type { Steroid } from "@prisma/client";
 
 const SteroidsPage = async ({
   searchParams,
