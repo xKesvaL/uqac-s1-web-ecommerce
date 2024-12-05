@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "auth:generate": "bunx @better-auth/cli generate"
+    "auth:generate": "bunx @better-auth/cli generate",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
