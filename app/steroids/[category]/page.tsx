@@ -32,7 +32,7 @@ const SteroidsCategoryPage = async ({
     },
   });
 
-  const currentCategory = steroids[0].Category;
+  const currentCategory = steroids[0]?.Category;
 
   if (!currentCategory) {
     return notFound();
