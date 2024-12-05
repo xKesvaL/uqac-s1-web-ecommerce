@@ -69,3 +69,43 @@ model Verification {
 
   @@map("verification")
 }
+
+model Steroid {
+  id          String   @id
+  name        String
+  price       Float
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  Category   Category? @relation(fields: [categoryId], references: [id])
+  categoryId String?
+  Review     Review[]
+
+  @@map("steroid")
+}
+
+model Category {
+  id        String   @id
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  Steroids Steroid[]
+
+  @@map("category")
+}
+
+model Review {
+  id        String   @id
+  rating    Int
+  comment   String
+  verified  Boolean
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  Steroid   Steroid @relation(fields: [steroidId], references: [id])
+  steroidId String
+
+  @@map("review")
+}

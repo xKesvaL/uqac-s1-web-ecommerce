@@ -1,10 +1,16 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
-import { UserIcon } from "lucide-react";
+import { LogInIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { config } from "@/lib/config";
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
 
-const Header = () => {
+const Header = async () => {
+  const session = await auth.api.getSession({
+    headers: await headers(), // you need to pass the headers object.
+  });
+
   return (
     <header className="px-12 py-8 shadow border-b-[1px] border-muted sticky top-0 h-32">
       <div className="container flex items-center justify-between">
@@ -20,9 +26,15 @@ const Header = () => {
         <div className="flex gap-4 items-center">test</div>
         <div className="flex gap-4 items-center">
           <Button variant="ghost" size="icon" asChild>
-            <Link href="/profile">
-              <UserIcon />
-            </Link>
+            {session ? (
+              <Link href="/profile">
+                <UserIcon />
+              </Link>
+            ) : (
+              <Link href="/auth/login">
+                <LogInIcon />
+              </Link>
+            )}
           </Button>
         </div>
       </div>

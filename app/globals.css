@@ -106,7 +106,7 @@
 
       height: 100vh;
 
-      background-color: black;
+      background-color: hsl(var(--primary));;
 
       z-index: 1;
 
