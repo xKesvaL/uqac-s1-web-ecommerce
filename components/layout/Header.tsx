@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
-import { LogInIcon, UserIcon } from "lucide-react";
+import { LogInIcon, MenuIcon, UserIcon } from "lucide-react";
 import Link from "next/link";
 import { config } from "@/lib/config";
 import { auth } from "@/lib/auth";
@@ -21,7 +21,7 @@ const Header = async () => {
   });
 
   return (
-    <header className="px-12 py-8 shadow border-b-[1px] border-muted sticky top-0 h-32 bg-background z-50">
+    <header className="px-0 py-4 lg:px-12 lg:py-8 shadow border-b-[1px] border-muted sticky top-0 h-20 lg:h-32 bg-background z-50">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image
@@ -29,10 +29,11 @@ const Header = async () => {
             width={190}
             height={66.8}
             alt={`${config.appName} logo`}
+            className="h-12 lg:h-auto w-auto"
           />
         </Link>
 
-        <div className="flex gap-8 items-center">
+        <div className="gap-8 items-center hidden lg:flex">
           <Link href="/steroids">All Steroids</Link>
           <Link href="/steroids/oral-steroids">Oral Steroids</Link>
           <Link href="/steroids/injectable-steroids">Injectable Steroids</Link>
@@ -68,6 +69,52 @@ const Header = async () => {
         </div>
 
         <div className="flex items-center">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild className="lg:hidden">
+              <Button variant="ghost" size="icon">
+                <MenuIcon />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuLabel>Steroid Types</DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link href="/steroids">All Steroids</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/oral-steroids">Oral Steroids</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/injectable-steroids">
+                  Injectable Steroids
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/sarms">SARMs</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/cycle-support">Cycle Support</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/human-growth-hormone">
+                  Human Growth Hormone
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/peptides">Peptides</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/insulins-biguanides">
+                  Insulins & Biguanides
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/steroids/pre-designed-stacks">
+                  Pre-designed Stacks
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           <Search />
           <Button variant="ghost" size="icon" asChild>
             {session ? (

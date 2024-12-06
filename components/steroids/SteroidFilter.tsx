@@ -39,7 +39,7 @@ const SteroidFilter = ({ resultsCount }: { resultsCount: number }) => {
   }, []);
 
   return (
-    <div className="sticky top-32 bg-background/80 backdrop-blur-lg rounded-b-xl">
+    <div className="sticky top-20 lg:top-32 bg-background/80 backdrop-blur-lg rounded-b-xl">
       <div
         className="py-4 flex items-center justify-between transition-all"
         style={{

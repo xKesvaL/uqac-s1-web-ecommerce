@@ -51,7 +51,7 @@ const SteroidsCategoryPage = async ({
   return (
     <div className="py-4">
       <div className="grid lg:grid-cols-2 gap-8 py-4">
-        <div className="grid h-fit gap-4 sticky top-40">
+        <div className="grid h-fit gap-4 lg:sticky top-40">
           <header className="flex items-center gap-4 h-10">
             <BackButton />
             <span className="text-xl">Back</span>
@@ -66,7 +66,7 @@ const SteroidsCategoryPage = async ({
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-4">
+        <div className="lg:mt-14 flex flex-col gap-4">
           <header className="flex flex-col gap-1">
             <h1 className="text-4xl">{steroid.name}</h1>
             <p className="text-foreground/80">{steroid.description}</p>

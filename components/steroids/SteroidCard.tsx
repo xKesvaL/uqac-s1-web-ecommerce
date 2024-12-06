@@ -19,13 +19,15 @@ const SteroidCard = async ({ steroid }: { steroid: SteroidWithCategory }) => {
         alt={steroid.name}
         className="rounded w-full object-cover max-h-56 bg-muted"
       />
-      <div className="flex flex-col">
+      <div className="flex flex-col flex-1">
         <h3 className="text-lg">{steroid.name}</h3>
-        <div className="flex justify-between gap-4">
+        <div className="flex flex-col lg:flex-row justify-between lg:gap-4 h-full">
           <span className="text-sm text-muted-foreground">
             {steroid.Category.name}
           </span>
-          <span className="text-xl whitespace-nowrap">{steroid.price} €</span>
+          <span className="text-xl whitespace-nowrap ml-auto lg:ml-0 mt-auto">
+            {steroid.price} €
+          </span>
         </div>
       </div>
     </Link>
