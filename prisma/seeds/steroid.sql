@@ -9,7 +9,7 @@ INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab2c83127','Anadrol',110.0,'Powerful oral steroid for quick mass gains','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('01939896-b752-7055-9609-a0bab2c83137','Methandienone',80.0,'Classic oral steroid for bulking cycles','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('01939896-b752-7055-9609-a0bab2c83147','Stanozolol',90.0,'Ideal for athletes seeking strength gains','01939879-a4f8-77eb-a9b7-d02034ca7010');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab2c83157','Methyltestosterone',75.0,'Boosts testosterone levels effectively','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('01939896-b752-7055-9609-a0bab2c83167','Tbol',85.0,'Oral steroid with a mild anabolic effect','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('01939896-b752-7055-9609-a0bab2c83177','Epiandrosterone',70.0,'Promotes lean muscle growth and strength','01939879-a4f8-77eb-a9b7-d02034ca7010'),
@@ -20,7 +20,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0bab2c83587','Testosterone Enanthate',120.0,'A long-acting injectable testosterone','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c83687','Deca-Durabolin',140.0,'Injectable steroid for strength and recovery','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c83787','Trenbolone Acetate',150.0,'Potent injectable steroid for muscle gain','0193987a-e11b-74ce-95a9-447d64c949da');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab2c83887','Equipoise',130.0,'Injectable steroid for lean muscle mass','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c81187','Sustanon 250',125.0,'A blend of different testosterone esters','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c82187','Primobolan Depot',160.0,'Injectable steroid for muscle retention','0193987a-e11b-74ce-95a9-447d64c949da'),
@@ -31,7 +31,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0bab2c88187','Boldenone Undecylenate',130.0,'Increases appetite and enhances muscle mass','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c89187','Parabolan',165.0,'A potent form of trenbolone for advanced users','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c13187','Drostanolone Propionate',150.0,'Effective for cutting and defining muscles','0193987a-e11b-74ce-95a9-447d64c949da');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab2c23187','Testosterone Suspension',105.0,'Fast-acting pure testosterone','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c33187','Methenolone Enanthate',140.0,'Injectable alternative to oral Primobolan','0193987a-e11b-74ce-95a9-447d64c949da'),
 	 ('01939896-b752-7055-9609-a0bab2c43187','Testosterone Undecanoate',145.0,'A very long-acting injectable testosterone','0193987a-e11b-74ce-95a9-447d64c949da'),
@@ -42,7 +42,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0bab2283187','NAC (N-Acetyl Cysteine)',25.0,'Boosts antioxidant levels and protects the liver','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab2383187','TUDCA',40.0,'Powerful liver protection supplement','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab2483187','Hawthorn Berry',20.0,'Supports cardiovascular health during cycles','0193987a-f2a2-768e-9a0a-595540a48d2c');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab2583187','Saw Palmetto',22.0,'Supports prostate health during cycles','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab2683187','Celery Seed Extract',18.0,'Helps reduce blood pressure and improve circulation','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab2783187','Red Yeast Rice',25.0,'Promotes healthy cholesterol levels','0193987a-f2a2-768e-9a0a-595540a48d2c'),
@@ -53,7 +53,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0bab4c83187','Zinc',15.0,'Boosts immune health and testosterone levels','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab5c83187','Magnesium',18.0,'Supports muscle function and recovery','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab6c83187','Vitamin D3',20.0,'Enhances immune and bone health','0193987a-f2a2-768e-9a0a-595540a48d2c');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0bab7c83187','K2+D3 Complex',28.0,'Optimizes calcium metabolism and cardiovascular health','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab8c83187','Cycle Assist',50.0,'Comprehensive support for liver, heart, and prostate','0193987a-f2a2-768e-9a0a-595540a48d2c'),
 	 ('01939896-b752-7055-9609-a0bab9c83187','Arimistane',45.0,'Reduces estrogen levels during cycles','0193987a-f2a2-768e-9a0a-595540a48d2c'),
@@ -64,7 +64,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0ba52c83187','Genotropin',310.0,'Boosts growth, recovery, and fat loss','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0ba62c83187','Omnitrope',290.0,'Highly pure growth hormone for advanced athletes','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0ba72c83187','Humatrope',330.0,'FDA-approved HGH for muscle growth and repair','0193987b-0b10-7321-b368-ce2020504f00');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0ba82c83187','Saizen',305.0,'High-quality HGH for cutting cycles and anti-aging','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0ba92c83187','Zorbtive',310.0,'Medical-grade HGH for improved metabolism','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0b1b2c83187','Hygetropin',280.0,'Popular HGH for boosting energy and fat loss','0193987b-0b10-7321-b368-ce2020504f00'),
@@ -75,7 +75,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a0b6b2c83187','Fitropin',270.0,'Helps in fat burning and muscle toning','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0b7b2c83187','Evogene',275.0,'Improves sleep, recovery, and growth','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a0b8b2c83187','Glotropin',265.0,'Affordable HGH option for lean mass development','0193987b-0b10-7321-b368-ce2020504f00');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a0b9b2c83187','Getropin',280.0,'Boosts muscle recovery and improves metabolism','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a01ab2c83187','Riptropin',285.0,'Popular HGH for cutting and endurance enhancement','0193987b-0b10-7321-b368-ce2020504f00'),
 	 ('01939896-b752-7055-9609-a02ab2c83187','Dinotropin',270.0,'Supports bone density and overall recovery','0193987b-0b10-7321-b368-ce2020504f00'),
@@ -86,7 +86,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a07ab2c83187','Strength Stack',380.0,'Boosts overall power and endurance','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-a08ab2c83187','Lean Muscle Stack',390.0,'Enhances lean muscle mass without water retention','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-a09ab2c83187','Ultimate Bulking Stack',450.0,'Advanced stack for maximum muscle growth','0193987b-5235-725b-9169-c134ca3fb086');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-a1bab2c83187','Shred Stack',340.0,'Perfect for a ripped and shredded physique','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-a2bab2c83187','Endurance Stack',330.0,'Increases stamina and reduces recovery time','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-a3bab2c83187','Performance Stack',400.0,'Boosts overall athletic performance','0193987b-5235-725b-9169-c134ca3fb086'),
@@ -97,7 +97,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('01939896-b752-7055-9609-a8bab2c83187','Power Stack',370.0,'Enhances explosive power and speed','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-a9bab2c83187','Women’s Cutting Stack',340.0,'Specifically tailored for women’s fitness goals','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-10bab2c83187','Hardcore Mass Stack',460.0,'Advanced stack for bodybuilders during off-season','0193987b-5235-725b-9169-c134ca3fb086');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('01939896-b752-7055-9609-20bab2c83187','HGH Mass Stack',520.0,'Combines HGH with bulking steroid for ultimate growth','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-30bab2c83187','Beginner’s Bulking Stack',300.0,'An ideal starting point for new users','0193987b-5235-725b-9169-c134ca3fb086'),
 	 ('01939896-b752-7055-9609-40bab2c83187','Testosterone Booster Stack',350.0,'Optimizes testosterone levels for performance','0193987b-5235-725b-9169-c134ca3fb086'),
@@ -108,7 +108,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('21939896-b752-7055-9609-a0bab2c83187','Methyl-1-Testosterone',95.0,'Strong anabolic oral steroid','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('31939896-b752-7055-9609-a0bab2c83187','Oxymetholone',110.0,'Used for bulking and strength improvement','01939879-a4f8-77eb-a9b7-d02034ca7010'),
 	 ('41939896-b752-7055-9609-a0bab2c83187','Testosterone Cypionate',115.0,'Popular injectable testosterone option','0193987a-e11b-74ce-95a9-447d64c949da');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('019398a6-1525-7f2a-a95d-b01e6283e280','Ostarine',75.0,'SARM pour le développement musculaire','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e6283e380','Ligandrol',90.25,'SARM pour la préservation de la masse musculaire','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e6283e480','RAD-140',105.5,'SARM puissant pour la croissance musculaire','0193987b-283e-717b-911e-bbe1fc676ca5'),
@@ -119,7 +119,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('019398a6-1525-7f2a-a95d-b01e6283e980','S-4',88.75,'SARM pour la définition musculaire','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e62831b80','LGD-4033',98.25,'SARM pour la prise de masse','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e62832b80','MK-677',105.0,'SARM stimulant la sécrétion d''hormone de croissance','0193987b-283e-717b-911e-bbe1fc676ca5');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('019398a6-1525-7f2a-a95d-b01e62833b80','AC-262536',82.5,'SARM pour le développement musculaire sélectif','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e62834b80','SR9009',112.75,'SARM améliorant l''endurance','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e62835b80','Cardarine',95.5,'SARM métabolique et énergétique','0193987b-283e-717b-911e-bbe1fc676ca5'),
@@ -130,7 +130,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('019398a6-1525-7f2a-a95d-b01e6281eb80','AZD-9150',115.25,'SARM pour la performance athlétique','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e6282eb80','BMS-962395',97.5,'SARM pour l''hypertrophie musculaire','0193987b-283e-717b-911e-bbe1fc676ca5'),
 	 ('019398a6-1525-7f2a-a95d-b01e6283eb80','SARM-3',89.75,'SARM de nouvelle génération','0193987b-283e-717b-911e-bbe1fc676ca5');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('119398a6-1525-7f2a-a95d-b01e6283eb80','GHRP-6',85.5,'Peptide de stimulation de l''hormone de croissance','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('219398a6-1525-7f2a-a95d-b01e6283eb81','Sermorelin',95.75,'Analogue de l''hormone de libération de l''hormone de croissance','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('319398a6-1525-7f2a-a95d-b01e6283eb82','CJC-1295',110.25,'Peptide améliorant la libération d''hormone de croissance','0193987b-1c7d-72e4-aced-fa16b35130f1'),
@@ -141,7 +141,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('819398a6-1525-7f2a-a95d-b01e6283eb87','TB-500',115.75,'Peptide de récupération et de réparation','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('919398a6-1525-7f2a-a95d-b01e6283eb88','MGF',105.0,'Peptide de facteur de croissance mécanique','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('029398a6-1525-7f2a-a95d-b01e6283eb89','Hexarelin',88.25,'Peptide puissant de stimulation de l''hormone de croissance','0193987b-1c7d-72e4-aced-fa16b35130f1');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('039398a6-1525-7f2a-a95d-b01e6283eb10','GHR-2',92.5,'Peptide analogue de la ghréline','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('049398a6-1525-7f2a-a95d-b01e6283eb20','Melanotan II',110.0,'Peptide bronzant et aphrodisiaque','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('059398a6-1525-7f2a-a95d-b01e6283eb30','AOD-9604',85.75,'Peptide de perte de poids','0193987b-1c7d-72e4-aced-fa16b35130f1'),
@@ -152,7 +152,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('011398a6-1525-7f2a-a95d-b01e6283eb80','Mod GRF 1-29',87.5,'Peptide analogue de la GHRH','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('012398a6-1525-7f2a-a95d-b01e6283eb90','Delta-Sleep-Inducing Peptide',75.25,'Peptide favorisant le sommeil','0193987b-1c7d-72e4-aced-fa16b35130f1'),
 	 ('013398a6-1525-7f2a-a95d-b01e6283e180','Selank',92.0,'Peptide anxiolytique et neuroprotecteur','0193987b-1c7d-72e4-aced-fa16b35130f1');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('019398a6-1525-7f2a-a95d-101e6284eb80','Humalog',150.0,'Insuline rapide pour le contrôle glycémique','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-201e6285eb80','Metformine',40.75,'Biguanide pour la gestion du diabète','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-301e6286eb80','NovoRapid',135.25,'Analogue de l''insuline à action rapide','0193987b-3d77-76bb-b724-cef3c855d046'),
@@ -163,7 +163,7 @@ INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) 
 	 ('019398a6-1525-7f2a-a95d-801e6223eb80','Ozempic',210.75,'Semaglutide pour la gestion du diabète de type 2','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-901e6233eb80','Toujeo',165.25,'Insuline glargine à concentration élevée','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-b11e6243eb80','Levemir',155.0,'Insuline à action prolongée','0193987b-3d77-76bb-b724-cef3c855d046');
-INSERT INTO steroid (id,name,price,description,createdAt,updatedAt,category_id) VALUES
+INSERT INTO steroid (id,name,price,description,category_id) VALUES
 	 ('019398a6-1525-7f2a-a95d-b21e6253eb80','Tresiba',175.5,'Insuline ultra-longue durée','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-b31e6263eb80','Ryzodeg',185.25,'Mélange d''insulines à action rapide et prolongée','0193987b-3d77-76bb-b724-cef3c855d046'),
 	 ('019398a6-1525-7f2a-a95d-b41e6273eb80','Farxiga',110.75,'Inhibiteur du SGLT-2 pour le diabète','0193987b-3d77-76bb-b724-cef3c855d046'),
