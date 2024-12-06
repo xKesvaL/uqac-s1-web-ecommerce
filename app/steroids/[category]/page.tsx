@@ -4,6 +4,14 @@ import { getFiltersPrisma } from "@/lib/filters";
 import type { SearchParamsPage } from "@/lib/types";
 import { notFound } from "next/navigation";
 
+export async function generateStaticParams() {
+  const categories = await prisma.category.findMany();
+
+  return categories.map((category) => ({
+    category: category.slug,
+  }));
+}
+
 const SteroidsCategoryPage = async ({
   params,
   searchParams,
